@@ -3,7 +3,7 @@
 require './app/board.rb'
 
 puts 'Starting tic-tac-toe game...'
-puts 'Please refer to the row & column when you enter the position (ex-1A, 3B).'
+puts 'Insert the row & column when you enter the position (ex-1A, 3B).'
 players = %w[X O]
 current_player = players.sample
 board = Board.new(current_player)
